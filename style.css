@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Goshasans";
+    src: url("./goshasans-bold-webfont.woff2")
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +11,6 @@
 .header{
     height: 100vh;
     width: 100%;
-    z-index: 1;
 }
 
 .header__content{
@@ -16,7 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -1;
     background-color: black;
 }
 
@@ -33,6 +36,36 @@
     font-size: 40px;
     margin-bottom: 70px;
     margin-left: 20px;
+    font-family: Goshasans;
+}
+
+.header__coming{
+    position: fixed;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: Goshasans;
+}
+
+.header__counter{
+    position: fixed;
+    margin-top: 130px;
+    color: white;
+    font-size: 30px;
+    font-family: Goshasans;
+}
+
+.footer{
+    position: fixed;
+    bottom: 10px;
+    text-decoration: none;
+    color:white;
+    font-family: Goshasans;
+    cursor: pointer;
+}
+
+.footer:hover{
+    color: #009ff6;
 }
 
 
@@ -50,8 +83,3 @@
     align-items: center;
 }
 
-.footer{
-    height: 50vh;
-    width: 100%;
-    background-color: black;
-}
