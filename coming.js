@@ -1,6 +1,6 @@
 window.onload = function(){
     // Set the date we're counting down to
-    var countDownDate = new Date("2019-05-20").getTime();
+    var countDownDate = new Date("2019-05-27").getTime();
 
     // Update the count down every 1 second
     var countdownfunction = setInterval(function() {
