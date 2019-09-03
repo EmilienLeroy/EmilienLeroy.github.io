@@ -76,6 +76,12 @@ a:focus, a:active {
   outline: 0;
 }
 
+.subtitle{
+  max-width: 850px;
+  text-align: center;
+  margin: 0;
+}
+
 .navbar {
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -886,14 +892,14 @@ a:focus, a:active {
   max-width: 1170px;
 }
 
- .header-text{
-      text-transform: uppercase;
-      font-weight: 200;
-      color: #333;
-      margin-bottom: 20px;
-      font-size: 30px;
-      position: relative;
-      line-height: 24px;
+.header-text{
+  text-transform: uppercase;
+  font-weight: 200;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 30px;
+  position: relative;
+  line-height: 35px;
 }
 
 .landing-page .navbar-top {
