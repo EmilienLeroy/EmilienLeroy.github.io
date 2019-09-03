@@ -1,4 +1,4 @@
-# [Awesome Landing Page - Free Bootstrap Page](http://demos.creative-tim.com/landing-page)
+# [Kami App use Creative-Tim Landing page](http://demos.creative-tim.com/landing-page)
 
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/27/original/opt_alp_thumbnail.jpg "Awesome Landing Page")
 
