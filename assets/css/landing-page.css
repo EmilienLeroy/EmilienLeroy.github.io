@@ -724,6 +724,7 @@ a:focus, a:active {
  
 }
 
+
 .parallax .parallax-image.second-image{
   position: absolute;
   right: -200px;
@@ -747,6 +748,13 @@ a:focus, a:active {
   border-radius: 10px;
   overflow: hidden;
 }
+
+.container-custom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .landing-page .img-container img {
   width: 100%;
 }
@@ -1180,6 +1188,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
    .landing-page .section-demo .row:first-child{
     margin-bottom: 100px;
+   }
+
+   .row-custom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
    }
 
    .landing-page .section-demo .carousel-inner{
