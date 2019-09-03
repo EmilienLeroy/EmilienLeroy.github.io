@@ -107,6 +107,18 @@ a:focus, a:active {
   border-color: #888888;
   color: #888888;
 }
+
+.list-custom{
+  padding: 0px !important;
+}
+
+.btn-custom{
+  background-image: linear-gradient(to right, #30e3ca, #00d9df, #00cdf0, #00bffa, #00affc);
+  border: none;
+  color: white !important;
+  box-shadow: 0 3px 6px -5px black;
+}
+
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .btn.dropdown-toggle {
   background-color: transparent;
   color: #777777;
@@ -836,11 +848,9 @@ a:focus, a:active {
 
 
 .logo-container .logo{
-    overflow: hidden;
-    border-radius: 50%;
-    border: 1px solid #333333;
-    width: 50px; 
-    float: left;
+  overflow: hidden;
+  width: 200px;
+  float: left;
 }
 
 .logo-container .brand{
@@ -940,6 +950,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
     background: -ms-radial-gradient(center, ellipse cover,  #1e5799 0%,rgba(54, 151, 142, 0.8)  0%,#0C526C 100%,#3d7eaa 100%,#182848 100%,#6e48aa 100%,#6e48aa 100%); /* IE10+ */
     background: radial-gradient(ellipse at center,  #1e5799 0%,rgba(54, 151, 142, 0.8)  0%,#0C526C 100%,#3d7eaa 100%,#182848 100%,#6e48aa 100%,#6e48aa 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(54, 151, 142, 0.8) ', endColorstr='#6e48aa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-image: linear-gradient(to bottom right, #002f4bcf, #30e3ca00);
+    background-color: #2ce4cb;
 }
 .filter-gradient.green:after{
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
