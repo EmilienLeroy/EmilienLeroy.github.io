@@ -15,8 +15,6 @@ const handleIntersect = function (entries, observer) {
   })
 }
 
-
-
 window.addEventListener("DOMContentLoaded", function () {
   const observer = new IntersectionObserver(handleIntersect, options)
   const targets = document.querySelectorAll('.reveal')
