@@ -1682,9 +1682,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   .landing-page .wrapper{
     text-align: center;
   }
-  .landing-page .navbar-top{
-    background: rgba(0, 0, 0, 0.75);
-  }
+
   .landing-page .parallax {
     height: 550px;
   }
@@ -1725,4 +1723,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     .landing-page .navbar-top{
         padding-top: 10px;
     }
+
+   
+}
+
+@media (max-width: 768px){
+  .navbar-mobile{
+    padding: 10px !important;
+  }
+
+  .container-mobile{
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
