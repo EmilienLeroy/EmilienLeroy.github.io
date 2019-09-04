@@ -1738,4 +1738,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     justify-content: center;
     align-items: center;
   }
+
+  .description-mobile{
+    padding: 0 !important;
+  }
+
+  .mac-mobile{
+    height: 230px !important;
+    left: 50% !important;
+    margin-left: -200px !important;
+    margin-top: 0 !important;
+  }
 }
