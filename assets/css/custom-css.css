@@ -1,0 +1,23 @@
+.navbar-lang{
+  height: 30px;
+  margin: 0 3px;
+  border-radius: 40px;
+  transition: all 0.5s ease;
+}
+
+.navbar-lang:hover{
+  box-shadow: 0 0 5px white;
+    transition: all 0.5s ease;
+}
+
+.navbar-lang--selected{
+  border: solid white;
+  box-shadow: 0 0 9px white;
+}
+
+@media (max-width:768px){
+  .navbar-right{
+    float: right;
+    margin: -55px 10px;
+  }
+}
