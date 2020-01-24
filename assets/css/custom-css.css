@@ -15,6 +15,15 @@
   box-shadow: 0 0 9px white;
 }
 
+.video {
+  position: absolute;
+  z-index: 200;
+  top: 44px;
+  left: 33px;
+  border-radius: 14px;
+  border: solid 15px #13141b;
+}
+
 @media (max-width:768px){
   .navbar-right{
     float: right;
